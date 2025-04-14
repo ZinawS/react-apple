@@ -50,8 +50,7 @@ img {
 
 .link-wrapper .buy:hover,
 .buy a:hover {
-  color: rgb(172, 22, 22);
-  /* change color by netsanet */
+  color: rgb(242, 239, 239);
 }
 
 .link-wrapper .buy:hover {
