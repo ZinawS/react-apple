@@ -1,7 +1,7 @@
-import React from "react";
+
 import WatchLogo from "./image/watch-series5-logo.png";
 import CardLogo from "./image/apple-card-logo.png";
-import "../../../commonResource/CSS/styles.css";
+
 
 function WatchCard() {
   return (

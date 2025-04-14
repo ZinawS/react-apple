@@ -1,6 +1,5 @@
-import React from "react";
+
 import macbookImage from './image/mac-laptop.jpg';
-import '../../../commonResource/CSS/styles.css'
 
 function Mackbook() {
   return (

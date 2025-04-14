@@ -1,5 +1,4 @@
-import React from "react";
-import '../../../commonResource/CSS/styles.css'
+
 function Iphone() {
   return (
     <div>

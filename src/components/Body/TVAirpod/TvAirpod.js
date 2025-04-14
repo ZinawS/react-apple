@@ -1,7 +1,7 @@
-import React from "react";
+
 import TvLogo from './images/apple-tv-logo.png'
 import ServantLogo from './images/servant-logo.png'
-import "../../../commonResource/CSS/styles.css";
+
 
 function TvAirpod() {
   return (

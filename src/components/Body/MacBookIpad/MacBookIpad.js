@@ -1,6 +1,6 @@
-import React from "react";
+
 import IpadLogo from './images/new-ipad-logo.png'
-import '../../../commonResource/CSS/styles.css'
+
 
 function MacBookIpad() {
   return (

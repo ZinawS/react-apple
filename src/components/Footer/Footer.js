@@ -1,10 +1,6 @@
-import React from "react";
-import flag from "./image/16.png";
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min';
-import '../../commonResource/CSS/styles.css'
-import './js/FooterAdded'
 
+import flag from "./image/16.png";
+import './js/FooterAdded'
 
 function Footer() {
 

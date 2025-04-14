@@ -1,12 +1,8 @@
-import React from "react";
+
 import logo from "./images/logo.svg";
 import searchIcon from "./images/search-icon-sm.png";
 import cart from "./images/cart-sm.png";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../../commonResource/CSS/styles.css";
-import "bootstrap/dist/js/bootstrap.bundle.min"; // Bootstrap JS
 import './js/HeaderAdded'
-
 
 
 function Header() {
