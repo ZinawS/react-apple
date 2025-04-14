@@ -12,7 +12,7 @@ import "./commonResource/css/styles.css"
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
       <Mackbook />
       <IphonePro />
@@ -21,7 +21,7 @@ function App() {
       <TvAirpod />
       <MacBookIpad />
       <Footer />
-    </div>
+    </>
   );
 }
 
