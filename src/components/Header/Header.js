@@ -1,7 +1,6 @@
 import logo from "./images/logo.svg";
 import searchIcon from "./images/search-icon-sm.png";
 import cart from "./images/cart-sm.png";
-import "./js/HeaderAdded";
 
 function Header() {
   return (
@@ -9,10 +8,10 @@ function Header() {
       <div className="container">
         <nav className="navbar navbar-toggleable-sm navbar-expand-md">
           <button
-            className="navbar-toggler navbar-toggler-right"
+            className="navbar-toggler "
             type="button"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"

@@ -1,5 +1,6 @@
 import macbookImage from "./image/mac-laptop.jpg";
 
+
 function Mackbook() {
   return (
     <section className="container-fluid macbookpro-wrapper horizontal-product text-center pt-5">

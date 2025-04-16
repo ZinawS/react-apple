@@ -6,8 +6,9 @@ import WatchCard from "./components/Body/WatchCard/WatchCard";
 import TvAirpod from "./components/Body/TVAirpod/TvAirpod";
 import MacBookIpad from "./components/Body/MacBookIpad/MacBookIpad";
 import Footer from "./components/Footer/Footer";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./commonResource/css/styles.css"
 
 function App() {
