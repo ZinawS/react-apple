@@ -1,6 +1,5 @@
 import logo from "./images/logo.svg";
-import searchIcon from "./images/search-icon-sm.png";
-import cart from "./images/cart-sm.png";
+import header from "../../Asset/headerData";
 
 function Header() {
   return (
@@ -8,7 +7,7 @@ function Header() {
       <div className="container">
         <nav className="navbar navbar-toggleable-sm navbar-expand-md">
           <button
-            className="navbar-toggler "
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target=".navbar-collapse"
@@ -24,78 +23,13 @@ function Header() {
 
           <div className="navbar-collapse collapse">
             <ul className="navbar-nav nav-justified w-100 nav-fill">
-              <li className="nav-item">
-                <a
-                  className="nav-link js-scroll-trigger"
-                  href="https://www.apple.com/mac/"
-                >
-                  Mac
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link js-scroll-trigger"
-                  href="https://www.apple.com/iphone/"
-                >
-                  iPhone
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link js-scroll-trigger"
-                  href="https://www.apple.com/ipad/"
-                >
-                  iPad
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link js-scroll-trigger"
-                  href="https://www.apple.com/watch/"
-                >
-                  Watch
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link js-scroll-trigger"
-                  href="https://www.apple.com/tv/"
-                >
-                  TV
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link js-scroll-trigger"
-                  href="https://www.apple.com/music/"
-                >
-                  Music
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link js-scroll-trigger"
-                  href="https://www.apple.com/support/"
-                >
-                  Support
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link js-scroll-trigger"
-                  href="https://www.apple.com/us/search"
-                >
-                  <img src={searchIcon} alt="Search Icon" />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link js-scroll-trigger"
-                  href="https://www.apple.com/shop/bag"
-                >
-                  <img src={cart} alt="Shopping Cart" />
-                </a>
-              </li>
+              {header.map(({ href, label, img}) => (
+                <li className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href={href}>
+                    {(img) ?( <img src={img.src} alt={img.alt} />) : (label)}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </nav>
